@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">ВозрастСотрудникаМесяцев</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63609998628665" stop="63609998629499" status="passed">
+			<name>расчет возраста сотрудника в месяцах, дата рождения которого 01.01.1980, а дата расчета 18.09.2016</name>
+			<steps>
+				<step start="63609998628850" stop="63609998628853" status="passed">
+					<name>Допустим есть сотрудник, равный "Иванов"</name>
+					<title>Допустим есть сотрудник, равный "Иванов"</title>
+				</step>
+				<step start="63609998629059" stop="63609998629063" status="passed">
+					<name>и есть дата рождения сотрудника, равная 01.01.1980</name>
+					<title>и есть дата рождения сотрудника, равная 01.01.1980</title>
+				</step>
+				<step start="63609998629258" stop="63609998629262" status="passed">
+					<name>И есть дата расчета, равная 18.09.2016</name>
+					<title>И есть дата расчета, равная 18.09.2016</title>
+				</step>
+				<step start="63609998629457" stop="63609998629496" status="passed">
+					<name>Тогда возраст в месяцах равен  440</name>
+					<title>Тогда возраст в месяцах равен  440</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="расчет возраста сотрудника в месяцах, дата рождения которого 01.01.1980, а дата расчета 18.09.2016"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="ВозрастСотрудникаМесяцев"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
